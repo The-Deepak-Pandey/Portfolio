@@ -121,6 +121,10 @@ ul{
     transform: scale(1.05);
 }
 
+.shadow-dark{
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.25);
+}
+
 .aside{
     width: 270px;
     background: var(--bg-black-100);
@@ -459,3 +463,4 @@ h3.my-profession{
     width: 100%;
     position: relative;
 }
+
