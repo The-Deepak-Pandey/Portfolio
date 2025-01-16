@@ -530,8 +530,18 @@
     <!-- ===== Main Container End ==== -->
     <!-- ===== JS Files ===== -->
     <script src="js/script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/style-switcher.js"></script>
-</body>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
-</html>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('.typing', {
+            strings: ["Full Stack Developer", "Competitive Programmer", "Web Designer", "Photographer", "Freelancer"],
+            typeSpeed: 90,
+            backSpeed: 50,
+            loop: true
+        });
+    </script>
+</body>
+</html> 
